@@ -1,0 +1,79 @@
+.youtubebutton {
+  font-family: Avenir;
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 12px;
+  animation-name: colorchange;
+  animation-duration: 8s;
+  transition: step-end;
+  animation-iteration-count: infinite;
+  text-decoration: none;
+  height:60px ;
+  width:250px ;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: white;
+
+  background-color:#d53e33;
+
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Color change keyframe*/
+@keyframes colorchange {
+  
+  0% {
+    background-color: #d53e33;
+  }
+  25%{
+    background-color: #377af5;
+  }
+  50% {
+    background-color: #399953;
+  }
+  75% {
+    background-color: #fbb300;
+  }
+  0% {
+    background-color: #d53e33;
+  }
+}
+
+.youtubebutton:focus {
+  outline-color: transparent;
+  box-shadow: hsl(210, 80%, 42%) 2px 2px 22px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.right::after,
+.youtubebutton::after {
+  content: var(--content);
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+  padding: 40px 40px;
+  pointer-events: none;
+  text-decoration: none;
+  color: white;
+
+}
+
+.youtubebutton::after {
+  font-weight: 200;
+  top: -30px;
+  left: -20px;
+  color: white;
+}
+a{
+  color: white;
+}
+
