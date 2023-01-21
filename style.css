@@ -1,0 +1,66 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: solid black 1.5px 0;
+}
+
+header {
+  height: 15%;
+  border-bottom: solid black 1.5px;
+  width: 100%;
+  background-color: #1d2123;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
+
+.projects {
+  background: purple;
+  height: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects p{
+    color: white;
+}
+
+.projects img {
+  height: 70%;
+  width: 70%;
+  /* border: solid blue 2.5px; */
+  
+}
+
+.p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects img:hover{
+    box-shadow: 0px 10px 50px black;
+}
+.projects p:hover{
+   font-style: italic;
+   font-size: 25px;
+   font-weight: bolder;
+}

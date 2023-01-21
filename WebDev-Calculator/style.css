@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(18, 153, 142);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(18, 153, 142);
+}
+
+.h {
+  background: rgb(222, 164, 29);
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.container {
+  background: rgb(1, 162, 221);
+  width: 45vw;
+  height: 82vh;
+  margin: 0 auto;
+  margin-top: 4.7vh;
+  border: 2px solid black;
+}
+
+.numpad {
+  background: rgb(91, 204, 246);
+  width: 40vw;
+  height: 55vh;
+  margin: 0 auto;
+  margin-top: 2vh;
+  display: flex;
+  border: 2px solid black;
+}
+
+.keys {
+  background: rgb(91, 204, 246);
+  width: 40vw;
+  height: 45vh;
+  margin: 0 auto;
+  margin-top: 1.2vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  font-size: 25px;
+}
+
+.screen {
+  background: rgb(1, 162, 221);
+  width: 40vw;
+  height: 20vh;
+  margin: 0 auto;
+  margin-top: 1.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 40vw;
+  height: 15vh;
+  margin: 0 auto;
+  font-size: 50px;
+  text-align: right;
+  border: 2px solid black;
+  font-family: "Orbitron", sans-serif;
+}
+
+.num {
+  background-color: rgb(169, 194, 93);
+  padding: auto;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 5.5vw;
+  height: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: 2px solid black;
+  font-family: "Orbitron", sans-serif;
+}
