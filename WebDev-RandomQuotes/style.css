@@ -1,19 +1,19 @@
-body{
+body {
   padding: 0;
   margin: 0;
   height: 100%;
   width: 100%;
-  background: #8AA4BC;
+  background: #8aa4bc;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.box{
-  background: #CAA6C6;
+.box {
+  background: #caa6c6;
   width: 70%;
   height: 70%;
   margin: 0 auto;
@@ -21,9 +21,12 @@ body{
   border-radius: 30px;
 }
 
+h1 {
+  text-align: center;
+}
 
-#txtquote{
-  background: #CAA6C6;
+#txtquote {
+  background: #caa6c6;
   width: 70%;
   height: 30%;
   padding: 0 10%;
@@ -32,13 +35,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
   font-size: 30px;
   text-align: center;
 }
 
-#txtauthor{
-  background: #CAA6C6;
+#txtauthor {
+  background: #caa6c6;
   width: 70%;
   height: 30%;
   padding: 0 10%;
@@ -47,14 +50,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
   font-size: 20px;
   text-align: center;
 }
 
-
-#txttags{
-  background: #CAA6C6;
+#txttags {
+  background: #caa6c6;
   width: 70%;
   height: 30%;
   margin: 0 auto;
@@ -63,15 +65,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
   font-size: 20px;
   text-align: center;
 }
 
-
-
-.button{
-  background: #8AA4BC;
+.button {
+  background: #8aa4bc;
   width: 20%;
   height: 5%;
   margin: 0 auto;
@@ -82,7 +82,7 @@ body{
   justify-content: center;
   border-radius: 20px;
   border: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 17px;
   margin-bottom: 2.5%;
 }
